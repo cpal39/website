@@ -6049,7 +6049,8 @@ html {
   background-color: #1a1b1c;
   font-family: "Roboto", sans-serif;
   font-size: 16pt;
-  background-clip: border-box; }
+  background-clip: border-box;
+  overflow-y: hidden;}
 
 h1 {
   text-align: center; }
@@ -6153,6 +6154,6 @@ li a:hover {
   font-weight: lighter; }
 
 #rightCol {
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   overflow-y: scroll; }
