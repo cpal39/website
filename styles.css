@@ -6037,36 +6037,43 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-
+/***NORMAL CSS STARTS HERE***/
 * {
-  box-sizing: border-box; }
+	box-sizing: border-box;
+}
 
 body,
 html {
-  background-image: url("birdUp.jpg");
-  background-position: center;
-  background-size: cover;
-  background-color: #1a1b1c;
-  font-family: "Roboto", sans-serif;
-  font-size: 16pt;
-  background-clip: border-box;
-  overflow-y: hidden;}
+	background-image: url("birdUp.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: #1a1b1c;
+	font-family: "Roboto", sans-serif;
+	font-size: 16pt;
+	background-clip: border-box;
+}
 
 h1 {
-  text-align: center; }
+	text-align: center;
+}
 
 h5 {
-  font-weight: normal; }
+	font-weight: normal;
+}
 
 p {
-  font-size: 6.4; }
+	font-size: 6.4;
+}
 
 a {
-  color: white;
-  text-align: center; }
-  a:hover {
+	color: white;
+  	text-align: center;
+}
+
+a:hover {
     color: black;
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 nav, .col-lg-4 {
 	margin-bottom: 5px;
@@ -6076,84 +6083,108 @@ li a:hover {
 	color: white;
 	text-decoration: underline;
 }
-
 .container {
-  padding-top: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-width: 1280px; }
+  	padding-top: 15px;
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  	max-width: 1280px;
+}
 
 .card {
-  background-color: BlueViolet;
-  color: white; }
+  	background-color: BlueViolet;
+  	color: white;
+}
 
 .card-img-top {
-  height: auto;
-  object-fit: cover; }
+	height: auto;
+  	object-fit: cover;
+}
 
 .btn, .btn-primary {
-  background-color: MidnightBlue;
-  color: white; }
-  .btn:hover, .btn-primary:hover {
+  	background-color: MidnightBlue;
+  	color: white;
+}
+
+.btn:hover, .btn-primary:hover {
     background-color: cyan;
     color: black;
-    font-weight: normal; }
+	font-weight: normal;
+}
 
 .modal-header {
-  background-color: BlueViolet;
-  color: white; }
+  	background-color: BlueViolet;
+  	color: white;
+}
 
 .modal-content {
-  background-color: #222222;
-  color: white; }
+  	background-color: #222222;
+  	color: white;
+}
 
 .col-sm-7 {
-  overflow: visible;
-  overflow-y: visible; }
+  	overflow: visible;
+  	overflow-y: visible;
+}
 
 #nav {
-  background-color: #222222;
-  text-align: center;
-  color: white;
-  font-weight: bold; }
+  	background-color: #222222;
+  	text-align: center;
+  	color: white;
+  	font-weight: bold;
+}
 
 #anchor1, #anchor3, #anchor5 {
-  background-color: BlueViolet;
-  color: white;
-  text-align: center; }
-  #anchor1:hover, #anchor3:hover, #anchor5:hover {
-    background-color: cyan; }
-    #anchor1:hover a, #anchor3:hover a, #anchor5:hover a {
-      color: black; }
+  	background-color: BlueViolet;
+  	color: white;
+  	text-align: center;
+}
+#anchor1:hover, #anchor3:hover, #anchor5:hover {
+    background-color: cyan;
+}
+
+#anchor1:hover a, #anchor3:hover a, #anchor5:hover a {
+	color: black;
+}
 
 #anchor2, #anchor4 {
-  background-color: MidnightBlue;
-  color: white;
-  text-align: center; }
-  #anchor2:hover, #anchor4:hover {
-    background-color: cyan; }
-    #anchor2:hover a, #anchor4:hover a {
-      color: black; }
+	background-color: MidnightBlue;
+  	color: white;
+  	text-align: center;
+}
+
+#anchor2:hover, #anchor4:hover {
+    background-color: cyan;
+}
+
+#anchor2:hover a, #anchor4:hover a {
+	color: black;
+}
 
 #why {
-  display: none; }
+  	display: none;
+}
 
 #title {
-  font-size: 24pt;
-  font-weight: lighter; }
+  	font-size: 24pt;
+  	font-weight: lighter;
+}
 
 #chris {
-  color: magenta; }
+  	color: magenta;
+}
 
 #paldino {
-  color: cyan; }
+  	color: cyan;
+}
 
 #subtitle {
-  color: white;
-  font-style: italic;
-  font-weight: lighter; }
+  	color: white;
+  	font-style: italic;
+  	font-weight: lighter;
+}
 
 #rightCol {
-  height: 95vh;
-  overflow: hidden;
-  overflow-y: scroll; }
+  	height: 95vh;
+  	overflow: hidden;
+  	overflow-y: scroll;
+}
