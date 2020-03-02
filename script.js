@@ -17,7 +17,7 @@ $(document).ready(function(){
 			$('#anchor5').show();
 		}
 	});
-	$("a[href^='#']").each(function(){
+	$("div[id^='anchor']").each(function(){
 		$(this).click(function(e){
 			e.preventDefault();
 			let id=$(this).attr('href');
