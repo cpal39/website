@@ -6047,6 +6047,7 @@ html {
 	background-image: url("birdUp.jpg");
 	background-position: center;
 	background-size: cover;
+	background-repeat: repeat;
 	background-color: #1a1b1c;
 	font-family: "Roboto", sans-serif;
 	font-size: 16pt;
@@ -6086,7 +6087,7 @@ li a:hover {
 .container {
   	padding-top: 15px;
   	margin-top: 15px;
-  	margin-bottom: 15px;
+  	/* margin-bottom: 15px; */
   	max-width: 1280px;
 }
 
@@ -6124,6 +6125,16 @@ li a:hover {
 .col-sm-7 {
   	overflow: visible;
   	overflow-y: visible;
+}
+
+footer {
+	color: cyan;
+	height:1px;
+	margin-left: auto;
+	margin-right: 5px;
+	text-align: right;
+	font-weight: lighter;
+	font-size: 9pt;
 }
 
 #nav {
@@ -6184,7 +6195,7 @@ li a:hover {
 }
 
 #rightCol {
-  	height: 95vh;
+  	height: 92vh;
 	position: relative;
   	overflow: hidden;
   	overflow-y: scroll;
