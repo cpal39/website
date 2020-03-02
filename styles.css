@@ -6185,6 +6185,7 @@ li a:hover {
 
 #rightCol {
   	height: 95vh;
+	position: relative;
   	overflow: hidden;
   	overflow-y: scroll;
 }
