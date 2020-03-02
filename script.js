@@ -18,14 +18,23 @@ $(document).ready(function(){
 		}
 	});
 	$("div[id^='anchor']").each(function(){
+		$(this).click(function(){
+			// let id=$(this).attr('href');
+			let id="#card"+$(this).attr("id").charAt(6);
+			$("#rightCol").animate({
+				scrollTop: $('#rightCol').scrollTop() + $(id).offset().top-30
+			}, 'fast');
+			// $('#rightCol').scrollTop($('#rightCol').scrollTop() + $(id).offset().top-30);
+			// $(id)[0].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+		});
+	});
+	$("a[href^='#card']").each(function(){
 		$(this).click(function(e){
 			e.preventDefault();
 			let id=$(this).attr('href');
 			$("#rightCol").animate({
 				scrollTop: $('#rightCol').scrollTop() + $(id).offset().top-30
 			}, 'fast');
-			// $('#rightCol').scrollTop($('#rightCol').scrollTop() + $(id).offset().top-30);
-			// $(id)[0].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
 		});
 	});
 });
